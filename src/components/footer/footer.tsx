@@ -1,12 +1,8 @@
 import "./footer.scss";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faInstagram,
-  faTwitter,
-  faLinkedin,
-  faFacebook,
-} from "@fortawesome/free-brands-svg-icons";
+import { faLinkedin, faFacebook } from "@fortawesome/free-brands-svg-icons";
+import { faEnvelope, faPhone } from "@fortawesome/free-solid-svg-icons";
 
 const Footer = () => {
   return (
@@ -22,11 +18,10 @@ const Footer = () => {
           <p>News</p>
         </div>
         <div className="Chat">
-          <p>Lets Chat! 👋</p>
-          <p>support@signaturehealth.co.nz</p>
+          <p>Contact Us</p>
           <div className="Chat__Socials">
-            <FontAwesomeIcon icon={faInstagram} />
-            <FontAwesomeIcon icon={faTwitter} />
+            <FontAwesomeIcon icon={faEnvelope} />
+            <FontAwesomeIcon icon={faPhone} />
             <FontAwesomeIcon icon={faLinkedin} />
             <FontAwesomeIcon icon={faFacebook} />
           </div>
