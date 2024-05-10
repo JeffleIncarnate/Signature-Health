@@ -1,8 +1,5 @@
 import "./aboutMain.scss";
 
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faBabyCarriage } from "@fortawesome/free-solid-svg-icons/faBabyCarriage";
-
 const AboutMain = () => {
   return (
     <main className="AboutMain">
