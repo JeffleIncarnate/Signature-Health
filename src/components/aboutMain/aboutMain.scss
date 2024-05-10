@@ -1,0 +1,50 @@
+@import "../../variables";
+
+.AboutMain {
+  width: 75%;
+  margin: 5rem 12.5%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 5rem;
+
+  > .AboutUs {
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5rem;
+
+    .AboutUs__Image {
+      flex: 1;
+
+      img {
+        max-width: 100%;
+
+        border-radius: 1rem;
+      }
+    }
+
+    .AboutUs__Text {
+      flex: 1;
+
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+
+      text-align: center;
+
+      h2 {
+        font-size: 5rem;
+      }
+
+      p {
+        font-size: 1.2rem;
+      }
+    }
+  }
+}
