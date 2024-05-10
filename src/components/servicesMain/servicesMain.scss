@@ -1,0 +1,75 @@
+@import "../../variables";
+
+.ServicesMain {
+  width: 75%;
+  margin: 5rem 12.5%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 5rem;
+
+  > .Services {
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    h2 {
+      font-size: 5rem;
+    }
+
+    .ServiceWrapper {
+      width: 100%;
+
+      margin-top: 2rem;
+
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 2rem;
+
+      .Service {
+        max-width: 400px;
+        min-height: 500px;
+
+        padding: 2rem;
+        border-radius: 1rem;
+
+        background-color: rgba($darkGreen, 0.05);
+
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+        row-gap: 1rem;
+
+        > h3 {
+          font-size: 2rem;
+        }
+
+        > p {
+          font-size: 1.1rem;
+        }
+
+        > button {
+          margin-top: auto;
+
+          padding: 0.5rem 1rem;
+
+          border-radius: 0.5rem;
+          border: none;
+
+          font-family: inherit;
+          font-weight: bold;
+          font-size: 1.1rem;
+
+          background-color: $gold;
+        }
+      }
+    }
+  }
+}
