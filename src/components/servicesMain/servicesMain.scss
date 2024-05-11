@@ -13,13 +13,9 @@
   > .Services {
     width: 100%;
 
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-
     h2 {
       font-size: 5rem;
+      text-align: center;
     }
 
     .ServiceWrapper {
@@ -34,8 +30,8 @@
       gap: 2rem;
 
       .Service {
-        max-width: 400px;
-        min-height: 500px;
+        width: 400px;
+        min-height: 700px;
 
         padding: 2rem;
         border-radius: 1rem;
@@ -47,15 +43,36 @@
         flex-direction: column;
         row-gap: 1rem;
 
-        > h3 {
+        h3 {
           font-size: 2rem;
+
+          text-align: center;
         }
 
-        > p {
-          font-size: 1.1rem;
+        p {
+          text-align: center;
         }
 
-        > button {
+        ul {
+          width: 100%;
+
+          .ServiceItem {
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            gap: 1.5rem;
+
+            margin: 1rem;
+
+            .ServiceItemIcon {
+              width: 20px;
+
+              color: $gold;
+            }
+          }
+        }
+
+        button {
           margin-top: auto;
 
           padding: 0.5rem 1rem;

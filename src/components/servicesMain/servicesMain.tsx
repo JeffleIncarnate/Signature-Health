@@ -64,20 +64,20 @@ const ServicesMain = () => {
   );
 };
 
-function Service({ heading, itemsServiceHas }: Service) {
+function Service({ heading, text, itemsServiceHas }: Service) {
   return (
     <div className="Service">
       <h3>{heading}</h3>
 
+      <p>{text}</p>
+
       <ul>
-        {itemsServiceHas.map((item) => {
-          return (
-            <div className="ServiceItem">
-              <FontAwesomeIcon className="ServiceItemIcon" icon={faCheck} />
-              <p>{item}</p>
-            </div>
-          );
-        })}
+        {itemsServiceHas.map((item) => (
+          <div className="ServiceItem">
+            <FontAwesomeIcon className="ServiceItemIcon" icon={faCheck} />
+            <p>{item}</p>
+          </div>
+        ))}
       </ul>
 
       <button>Learn More</button>
