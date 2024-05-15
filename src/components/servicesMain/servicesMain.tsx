@@ -73,7 +73,7 @@ function Service({ heading, text, itemsServiceHas }: Service) {
 
       <ul>
         {itemsServiceHas.map((item) => (
-          <div className="ServiceItem">
+          <div className="ServiceItem" key={crypto.randomUUID()}>
             <FontAwesomeIcon className="ServiceItemIcon" icon={faCheck} />
             <p>{item}</p>
           </div>
