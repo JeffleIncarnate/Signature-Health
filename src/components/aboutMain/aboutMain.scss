@@ -9,49 +9,10 @@
   flex-direction: column;
   gap: 5rem;
 
-  > .AboutUs {
-    width: 75%;
-    margin: 0 12.5%;
-    margin-top: 5rem;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 5rem;
-
-    .AboutUs__Image {
-      flex: 1;
-
-      img {
-        max-width: 100%;
-
-        border-radius: 1rem;
-      }
-    }
-
-    .AboutUs__Text {
-      flex: 1;
-
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      flex-direction: column;
-
-      text-align: center;
-
-      h2 {
-        font-size: 5rem;
-      }
-
-      p {
-        font-size: 1.2rem;
-      }
-    }
-  }
-
   > .Values {
     width: 75%;
     margin: 0 12.5%;
+    margin-top: 5rem;
 
     display: flex;
     align-items: center;
@@ -129,24 +90,70 @@
 
       p {
         font-size: 1.2rem;
+        margin: 1rem 0;
       }
     }
   }
 
-  > .Vision__Commitment {
+  > .Honour,
+  > .Commitment {
     width: 75%;
     margin: 0 12.5%;
 
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    gap: 2rem;
-
     text-align: center;
+
+    h2 {
+      font-size: 5rem;
+    }
 
     p {
       font-size: 1.2rem;
+    }
+  }
+
+  > .Team {
+    width: 75%;
+    margin: 0 12.5%;
+
+    h2 {
+      font-size: 5rem;
+      text-align: center;
+    }
+
+    .TeamWrapper {
+      width: 100%;
+
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 3rem;
+
+      .TeamMember {
+        max-width: 350px;
+
+        display: flex;
+        flex-direction: column;
+
+        cursor: pointer;
+
+        img {
+          width: 100%;
+        }
+
+        h3 {
+          margin-top: 1rem;
+          font-size: 1.5rem;
+        }
+
+        p {
+          color: grey;
+        }
+
+        &:hover {
+          background-color: #f9f9f9;
+        }
+      }
     }
   }
 }

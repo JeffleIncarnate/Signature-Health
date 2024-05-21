@@ -49,40 +49,10 @@ const ServicesMain = () => {
       <div className="Services">
         <h2>SERVICES WE OFFER</h2>
 
-        <div className="ServiceWrapper">
-          {services.map((item) => (
-            <Service
-              heading={item.heading}
-              text={item.text}
-              itemsServiceHas={item.itemsServiceHas}
-              key={crypto.randomUUID()}
-            />
-          ))}
-        </div>
+        <div className="ServiceWrapper"></div>
       </div>
     </main>
   );
 };
-
-function Service({ heading, text, itemsServiceHas }: Service) {
-  return (
-    <div className="Service">
-      <h3>{heading}</h3>
-
-      <p>{text}</p>
-
-      <ul>
-        {itemsServiceHas.map((item) => (
-          <div className="ServiceItem" key={crypto.randomUUID()}>
-            <FontAwesomeIcon className="ServiceItemIcon" icon={faCheck} />
-            <p>{item}</p>
-          </div>
-        ))}
-      </ul>
-
-      <button>Learn More</button>
-    </div>
-  );
-}
 
 export default ServicesMain;
