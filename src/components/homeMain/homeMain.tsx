@@ -15,44 +15,25 @@ const HomeMain = () => {
           <img src="/pictures/homeImage.jpeg" alt="" />
         </div>
         <div className="Mission__Text">
-          <h2>MISSION</h2>
+          <h2>Our Mission</h2>
           <p>
-            Our mission is to enable our clients to continue living enriched
-            lives within our communities, in comfort of their homes and
-            surrounded by their whanau.
+            Signature Health Group provides home care services to people living
+            the comfort of their homes within Tauranga region. Our clients and
+            their wellbeing are at the heart of our services. We offer services
+            tailored to your needs as you cherish comfort of your home and enjoy
+            company of your Whanau.
           </p>
         </div>
       </div>
 
-      <div className="Values">
-        <div className="Values__Wrapper">
-          <div className="Value">
-            <FontAwesomeIcon className="Value__Icon" icon={faHeart} />
-            <h3>Compassion</h3>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Temporibus, libero!
-            </p>
-          </div>
-
-          <div className="Value">
-            <FontAwesomeIcon className="Value__Icon" icon={faHandshake} />
-            <h3>Trust</h3>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Temporibus, libero!
-            </p>
-          </div>
-
-          <div className="Value">
-            <FontAwesomeIcon className="Value__Icon" icon={faAward} />
-            <h3>Excellence</h3>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Temporibus, libero!
-            </p>
-          </div>
-        </div>
+      <div className="Service__Philosophy">
+        <h2>Our Service Philosophy</h2>
+        <ul>
+          <li>Respectful engagements</li>
+          <li>Partnership approach to care</li>
+          <li>Protection of your rights</li>
+          <li>Active whanau Participation</li>
+        </ul>
       </div>
 
       <div className="TeTiriti">
