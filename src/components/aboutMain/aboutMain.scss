@@ -9,10 +9,49 @@
   flex-direction: column;
   gap: 5rem;
 
-  > .Values {
+  > .Mission {
     width: 75%;
     margin: 0 12.5%;
     margin-top: 5rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5rem;
+
+    .Mission__Image {
+      flex: 1;
+
+      img {
+        max-width: 100%;
+
+        border-radius: 1rem;
+      }
+    }
+
+    .Mission__Text {
+      flex: 1;
+
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+
+      text-align: center;
+
+      h2 {
+        font-size: 5rem;
+      }
+
+      p {
+        font-size: 1.2rem;
+      }
+    }
+  }
+
+  > .Values {
+    width: 75%;
+    margin: 0 12.5%;
 
     display: flex;
     align-items: center;
@@ -53,49 +92,6 @@
     }
   }
 
-  > .Philosophy {
-    width: 75%;
-    margin: 0 12.5%;
-
-    text-align: center;
-
-    h2 {
-      font-size: 5rem;
-    }
-
-    p {
-      font-size: 1.2rem;
-    }
-  }
-
-  > .Mission {
-    width: 100%;
-
-    background-color: $darkGreen;
-    color: white;
-
-    padding: 10rem;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-
-    .MissionWrapper {
-      width: 75%;
-
-      h2 {
-        font-size: 5rem;
-      }
-
-      p {
-        font-size: 1.2rem;
-        margin: 1rem 0;
-      }
-    }
-  }
-
-  > .Honour,
   > .Commitment {
     width: 75%;
     margin: 0 12.5%;
@@ -111,47 +107,55 @@
     }
   }
 
-  > .Team {
+  .Boss {
     width: 75%;
     margin: 0 12.5%;
 
-    h2 {
-      font-size: 5rem;
-      text-align: center;
+    display: flex;
+
+    gap: 3rem;
+
+    p {
+      font-size: 1.2rem;
     }
 
-    .TeamWrapper {
-      width: 100%;
+    .left {
+      width: 50%;
 
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      flex-wrap: wrap;
-      gap: 3rem;
-
-      .TeamMember {
-        max-width: 350px;
+      .Boss__Image {
+        overflow: hidden;
 
         display: flex;
-        flex-direction: column;
+        align-items: center;
+        justify-content: center;
 
-        cursor: pointer;
+        width: 100%;
 
         img {
           width: 100%;
+
+          border-radius: 1rem;
+        }
+      }
+
+      .Boss__Description__Bottom {
+        margin-top: 3rem;
+      }
+    }
+
+    .right {
+      width: 50%;
+
+      .Boss__Description__Right {
+        grid-column: 2;
+        grid-row: 1 / end;
+
+        > p {
+          margin: 2rem 0;
         }
 
-        h3 {
-          margin-top: 1rem;
-          font-size: 1.5rem;
-        }
-
-        p {
-          color: grey;
-        }
-
-        &:hover {
-          background-color: #f9f9f9;
+        h2 {
+          font-size: 4rem;
         }
       }
     }

@@ -10,6 +10,11 @@ const Header = () => {
         <h1>SIGNATURE</h1>
         <h2>HEALTH</h2>
       </div>
+
+      <div className="OurTeam">
+        <a href="/ourTeam">Our Team</a>
+        <a href="/ourTeam">Join Our Team</a>
+      </div>
     </header>
   );
 };

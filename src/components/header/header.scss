@@ -36,4 +36,36 @@
       font-size: 5rem;
     }
   }
+
+  > .OurTeam {
+    position: absolute;
+    bottom: 2rem;
+    right: 2rem;
+
+    display: flex;
+    gap: 2rem;
+
+    a {
+      color: $gold;
+
+      color: white;
+
+      font-family: "Domine", serif;
+
+      text-decoration: none;
+
+      border: 0.2rem solid white;
+      border-radius: 0.5rem;
+
+      padding: 0.5rem 1rem;
+
+      transition: 0.3s ease-in-out;
+
+      &:hover {
+        color: $gold;
+
+        border: 0.2rem solid $gold;
+      }
+    }
+  }
 }

@@ -1,12 +1,5 @@
 import "./homeMain.scss";
 
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faHeart,
-  faHandshake,
-  faAward,
-} from "@fortawesome/free-solid-svg-icons";
-
 const HomeMain = () => {
   return (
     <main className="HomeMain">

@@ -176,9 +176,10 @@ export default function ContactMain() {
           />
 
           <h2>Phone</h2>
-          <p>+123 456 7890</p>
+          <p>022 4922 939</p>
         </div>
       </div>
     </main>
   );
 }
+

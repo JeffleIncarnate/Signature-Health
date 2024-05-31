@@ -41,12 +41,6 @@ const ServicesMain = () => {
       icon: faHeartBroken,
     },
     {
-      heading: "MEDICATION MANAGEMENT",
-      text: "We can help you with medication administration, supervision and reminders. We do not administer anything. ",
-      itemsServiceHas: ["Lorem", "Lorem", "Lorem", "Lorem", "Lorem"],
-      icon: faPills,
-    },
-    {
       heading: "PRIVATE CARE",
       text: "Need help but do not qualify for funded care? We are here to help at competitive rates as per your need.",
       itemsServiceHas: ["Lorem", "Lorem", "Lorem", "Lorem", "Lorem"],
