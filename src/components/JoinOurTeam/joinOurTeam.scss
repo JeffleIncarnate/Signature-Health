@@ -1,0 +1,25 @@
+@import "../../variables";
+
+.JoinOurTeam {
+  width: 75%;
+  margin: 5rem 12.5%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 5rem;
+
+  .Jobs {
+    text-align: center;
+
+    h2 {
+      font-size: 5rem;
+    }
+
+    p {
+      font-size: 1.2rem;
+      margin-top: 1rem;
+    }
+  }
+}
