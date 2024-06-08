@@ -174,12 +174,11 @@ export default function ContactMain() {
             className="contact_right_section_icon"
             icon={faPhone}
           />
-
           <h2>Phone</h2>
           <p>022 4922 939</p>
+          <p>info@signaturehealth.co.nz</p>
         </div>
       </div>
     </main>
   );
 }
-
