@@ -2,6 +2,7 @@
 
 .AboutMain {
   width: 100%;
+  margin: 5rem 0;
 
   display: flex;
   align-items: center;
@@ -12,7 +13,6 @@
   > .Mission {
     width: 75%;
     margin: 0 12.5%;
-    margin-top: 5rem;
 
     display: flex;
     align-items: center;
@@ -47,6 +47,43 @@
         font-size: 1.2rem;
       }
     }
+
+    @media screen and (max-width: 1400px) {
+      > .Mission__Text {
+        flex: 2;
+
+        h2 {
+          font-size: 4rem;
+        }
+
+        p {
+          font-size: 1.1rem;
+        }
+      }
+    }
+
+    @media screen and (max-width: 1200px) {
+      width: 90%;
+      margin: 0 5%;
+    }
+
+    @media screen and (max-width: 900px) {
+      > .Mission__Text {
+        flex: 1.5;
+
+        h2 {
+          font-size: 3rem;
+        }
+
+        p {
+          font-size: 1rem;
+        }
+      }
+    }
+
+    @media screen and (max-width: 700px) {
+      flex-direction: column;
+    }
   }
 
   > .Values {
@@ -56,12 +93,13 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
     gap: 3rem;
 
     .Value {
       flex: 1;
-
-      margin-top: 2rem;
+      min-width: 350px;
+      max-width: 500px;
 
       display: flex;
       align-items: center;
@@ -90,6 +128,41 @@
         font-size: 1.2rem;
       }
     }
+
+    @media screen and (max-width: 1400px) {
+      .Value {
+        h3 {
+          font-size: 1.5rem;
+        }
+
+        p {
+          text-align: center;
+          font-size: 1.1rem;
+        }
+      }
+    }
+
+    @media screen and (max-width: 1200px) {
+      width: 90%;
+      margin: 0 5%;
+    }
+
+    @media screen and (max-width: 900px) {
+      .Value {
+        h3 {
+          font-size: 1.5rem;
+        }
+
+        p {
+          text-align: center;
+          font-size: 1rem;
+        }
+      }
+    }
+
+    @media screen and (max-width: 700px) {
+      flex-direction: column;
+    }
   }
 
   > .Commitment {
@@ -104,6 +177,31 @@
 
     p {
       font-size: 1.2rem;
+    }
+
+    @media screen and (max-width: 1400px) {
+      h2 {
+        font-size: 4rem;
+      }
+
+      p {
+        font-size: 1.1rem;
+      }
+    }
+
+    @media screen and (max-width: 1200px) {
+      width: 90%;
+      margin: 0 5%;
+    }
+
+    @media screen and (max-width: 900px) {
+      h2 {
+        font-size: 3rem;
+      }
+
+      p {
+        font-size: 1rem;
+      }
     }
   }
 
@@ -156,6 +254,139 @@
 
         h2 {
           font-size: 4rem;
+        }
+      }
+    }
+  }
+
+  .Boss {
+    width: 75%;
+    margin: 0 12.5%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    .top {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 3rem;
+
+      .top__image {
+        width: 30%;
+
+        img {
+          width: 100%;
+        }
+      }
+
+      .top__description {
+        width: 70%;
+
+        h2 {
+          font-size: 5rem;
+        }
+
+        div {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          flex-direction: column;
+          gap: 1rem;
+
+          p {
+            font-size: 1.2rem;
+          }
+        }
+      }
+    }
+
+    .bottom {
+      p {
+        font-size: 1.2rem;
+      }
+    }
+
+    @media screen and (max-width: 1700px) {
+      .top {
+        .top__image {
+          width: 40%;
+        }
+
+        .top__description {
+          width: 60%;
+        }
+      }
+    }
+
+    @media screen and (max-width: 1400px) {
+      .top {
+        .top__description {
+          h2 {
+            font-size: 4rem;
+          }
+
+          div {
+            p {
+              font-size: 1.1rem;
+            }
+          }
+        }
+      }
+    }
+
+    @media screen and (max-width: 1200px) {
+      width: 90%;
+      margin: 0 5%;
+    }
+
+    @media screen and (max-width: 1100px) {
+      .top {
+        flex-direction: column;
+
+        .top__image {
+          width: 40%;
+        }
+
+        .top__description {
+          width: 100%;
+          text-align: center;
+        }
+      }
+    }
+
+    @media screen and (max-width: 900px) {
+      .top {
+        .top__description {
+          h2 {
+            font-size: 3rem;
+          }
+
+          div {
+            margin-top: 2rem;
+            p {
+              font-size: 1rem;
+            }
+          }
+        }
+      }
+
+      .bottom {
+        p {
+          font-size: 1rem;
+          text-align: center;
+        }
+      }
+
+      gap: 2rem;
+    }
+
+    @media screen and (max-width: 500px) {
+      .top {
+        .top__image {
+          width: 100%;
         }
       }
     }

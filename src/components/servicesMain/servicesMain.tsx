@@ -1,10 +1,8 @@
 import {
-  fa0,
   faHeartBroken,
   faHome,
   faLock,
   faPersonCane,
-  faPills,
   faWheelchair,
   type IconDefinition,
 } from "@fortawesome/free-solid-svg-icons";

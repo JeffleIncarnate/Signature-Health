@@ -176,7 +176,14 @@ export default function ContactMain() {
           />
           <h2>Phone</h2>
           <p>022 4922 939</p>
-          <p>info@signaturehealth.co.nz</p>
+        </div>
+        <div className="contact_right_section">
+          <FontAwesomeIcon
+            className="contact_right_section_icon"
+            icon={faEnvelope}
+          />
+          <h2>Email</h2>
+          <p>info@signaturehealth.com</p>
         </div>
       </div>
     </main>
