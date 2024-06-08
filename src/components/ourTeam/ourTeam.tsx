@@ -88,7 +88,7 @@ const OurTeam = () => {
           </div>
         </div>
 
-        <div className="Person Righ">
+        <div className="Person Right">
           <div className="Image">
             <img src="/pictures/person.jpg" alt="" />
           </div>

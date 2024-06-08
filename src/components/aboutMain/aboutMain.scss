@@ -210,60 +210,6 @@
     margin: 0 12.5%;
 
     display: flex;
-
-    gap: 3rem;
-
-    p {
-      font-size: 1.2rem;
-    }
-
-    .left {
-      width: 50%;
-
-      .Boss__Image {
-        overflow: hidden;
-
-        display: flex;
-        align-items: center;
-        justify-content: center;
-
-        width: 100%;
-
-        img {
-          width: 100%;
-
-          border-radius: 1rem;
-        }
-      }
-
-      .Boss__Description__Bottom {
-        margin-top: 3rem;
-      }
-    }
-
-    .right {
-      width: 50%;
-
-      .Boss__Description__Right {
-        grid-column: 2;
-        grid-row: 1 / end;
-
-        > p {
-          margin: 2rem 0;
-        }
-
-        h2 {
-          font-size: 4rem;
-        }
-      }
-    }
-  }
-
-  .Boss {
-    width: 75%;
-    margin: 0 12.5%;
-
-    display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
