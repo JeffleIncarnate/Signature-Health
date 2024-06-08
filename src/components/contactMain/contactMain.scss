@@ -2,19 +2,19 @@
 
 /* -- Main -- */
 .contact_main {
-  width: 100%;
+  width: 75%;
+  margin: 5rem 12.5%;
   display: flex;
   align-items: center;
   justify-items: center;
   color: black;
-  margin: 5rem 0;
 
   .contact_left {
     width: 70%;
 
     > form {
-      width: 70%;
-      margin-left: 15%;
+      width: 100%;
+
       display: flex;
       align-items: center;
       justify-content: center;
@@ -103,7 +103,7 @@
   .contact_right {
     width: 30%;
     display: flex;
-    align-items: flex-start;
+    align-items: center;
     justify-content: center;
     flex-direction: column;
     text-align: center;

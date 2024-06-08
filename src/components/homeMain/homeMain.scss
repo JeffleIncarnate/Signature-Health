@@ -1,8 +1,8 @@
 @import "../../variables";
 
 .HomeMain {
-  width: 75%;
-  margin: 5rem 12.5%;
+  width: 100%;
+  margin: 5rem 0;
 
   display: flex;
   align-items: center;
@@ -13,7 +13,8 @@
   position: relative;
 
   > .Mission {
-    width: 100%;
+    width: 75%;
+    margin: 0 12.5%;
 
     display: flex;
     align-items: center;
@@ -48,32 +49,98 @@
         font-size: 1.2rem;
       }
     }
+
+    @media screen and (max-width: 1400px) {
+      > .Mission__Text {
+        flex: 2;
+
+        h2 {
+          font-size: 4rem;
+        }
+
+        p {
+          font-size: 1.1rem;
+        }
+      }
+    }
+
+    @media screen and (max-width: 1200px) {
+      width: 90%;
+      margin: 0 5%;
+    }
+
+    @media screen and (max-width: 900px) {
+      > .Mission__Text {
+        flex: 1.5;
+
+        h2 {
+          font-size: 3rem;
+        }
+
+        p {
+          font-size: 1rem;
+        }
+      }
+    }
+
+    @media screen and (max-width: 700px) {
+      flex-direction: column;
+    }
   }
 
   > .Service__Philosophy {
-    width: 100%;
+    width: 75%;
+    margin: 0 12.5%;
+    text-align: center;
 
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    gap: 2rem;
 
     h2 {
       font-size: 5rem;
     }
 
-    p {
+    li {
       font-size: 1.2rem;
+    }
+
+    @media screen and (max-width: 1400px) {
+      h2 {
+        font-size: 4rem;
+      }
+
+      li {
+        font-size: 1.1rem;
+      }
+    }
+
+    @media screen and (max-width: 1200px) {
+      width: 90%;
+      margin: 0 5%;
+    }
+
+    @media screen and (max-width: 900px) {
+      h2 {
+        font-size: 3rem;
+      }
+
+      li {
+        font-size: 1rem;
+      }
     }
   }
 
   > .TeTiriti {
-    width: 100%;
+    width: 75%;
+    margin: 0 12.5%;
     text-align: center;
 
-    padding: 2rem 0;
-
     display: flex;
+    align-items: center;
+    justify-content: center;
     flex-direction: column;
     gap: 2rem;
 
@@ -83,6 +150,31 @@
 
     p {
       font-size: 1.2rem;
+    }
+
+    @media screen and (max-width: 1400px) {
+      h2 {
+        font-size: 4rem;
+      }
+
+      p {
+        font-size: 1.1rem;
+      }
+    }
+
+    @media screen and (max-width: 1200px) {
+      width: 90%;
+      margin: 0 5%;
+    }
+
+    @media screen and (max-width: 900px) {
+      h2 {
+        font-size: 3rem;
+      }
+
+      p {
+        font-size: 1rem;
+      }
     }
   }
 }
