@@ -83,6 +83,7 @@
 
     @media screen and (max-width: 700px) {
       flex-direction: column;
+      gap: 1rem;
     }
   }
 
@@ -213,6 +214,7 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    gap: 1rem;
 
     .top {
       display: flex;
@@ -281,6 +283,12 @@
           }
         }
       }
+
+      .bottom {
+        p {
+          font-size: 1.1rem;
+        }
+      }
     }
 
     @media screen and (max-width: 1200px) {
@@ -294,10 +302,17 @@
 
         .top__image {
           width: 40%;
+          min-width: 300px;
         }
 
         .top__description {
           width: 100%;
+          text-align: center;
+        }
+      }
+
+      .bottom {
+        p {
           text-align: center;
         }
       }
@@ -311,7 +326,6 @@
           }
 
           div {
-            margin-top: 2rem;
             p {
               font-size: 1rem;
             }
