@@ -1,5 +1,10 @@
 @import "../../variables";
 
+@font-face {
+  src: url("../../../public/fonts/BookAntiqua.ttf");
+  font-family: bookAntiqua;
+}
+
 .Navbar {
   width: 100%;
 
@@ -14,16 +19,13 @@
 
     gap: 3rem;
 
-    > div {
-      > a {
-        color: white;
+    > a {
+      color: white;
 
-        text-decoration: none;
+      text-decoration: none;
 
-        font-size: 1.5rem;
-
-        font-family: "Domine", serif;
-      }
+      font-size: 1.5rem;
+      font-family: bookAntiqua;
     }
   }
 
@@ -32,41 +34,88 @@
 
     gap: 3rem;
 
-    > div {
-      > a {
-        color: white;
+    > a {
+      color: white;
 
-        text-decoration: none;
+      text-decoration: none;
 
-        font-size: 1.5rem;
-        font-family: "Domine", serif;
+      font-size: 1.5rem;
+      font-family: bookAntiqua;
+
+      transition: all 0.3s ease-in-out;
+
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+
+      &::after {
+        content: "";
+
+        height: 0.1rem;
+        width: 0%;
+
+        background-color: $gold;
 
         transition: all 0.3s ease-in-out;
-
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
-
-        &::after {
-          content: "";
-
-          height: 0.1rem;
-          width: 0%;
-
-          background-color: $gold;
-
-          transition: all 0.3s ease-in-out;
-        }
-
-        &:hover {
-          color: $gold;
-        }
-
-        &:hover::after {
-          width: 100%;
-        }
       }
+
+      &:hover {
+        color: $gold;
+      }
+
+      &:hover::after {
+        width: 100%;
+      }
+    }
+  }
+
+  .Navbar__Small {
+    display: none;
+
+    .Navbar__Small__Icon {
+      width: 2rem;
+      height: 2rem;
+
+      color: white;
+    }
+  }
+
+  @media screen and (max-width: 1000px) {
+    .Navbar__Home {
+      > a {
+        font-size: 1.4rem;
+      }
+    }
+
+    .Navbar__Links {
+      > a {
+        font-size: 1.4rem;
+      }
+    }
+  }
+
+  @media screen and (max-width: 700px) {
+    .Navbar__Home {
+      > a {
+        font-size: 1.2rem;
+      }
+    }
+
+    .Navbar__Links {
+      > a {
+        font-size: 1.2rem;
+      }
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    .Navbar__Links {
+      display: none;
+    }
+
+    .Navbar__Small {
+      display: block;
     }
   }
 }

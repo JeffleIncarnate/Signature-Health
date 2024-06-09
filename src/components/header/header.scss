@@ -17,63 +17,6 @@
 
   overflow-y: hidden;
 
-  > .Header__Text {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-
-    font-family: bookAntiqua;
-
-    h1 {
-      font-size: 10rem;
-      letter-spacing: 1rem;
-
-      background: -webkit-linear-gradient(
-        320deg,
-        rgba(236, 210, 140, 1) 0%,
-        rgba(201, 169, 71, 1) 50%,
-        rgba(236, 210, 140, 1) 100%
-      );
-
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-
-      filter: drop-shadow(20px 20px 20px black);
-    }
-
-    h2 {
-      font-size: 5rem;
-      letter-spacing: 1rem;
-
-      background: -webkit-linear-gradient(
-        320deg,
-        rgba(236, 210, 140, 1) 0%,
-        rgba(201, 169, 71, 1) 50%,
-        rgba(236, 210, 140, 1) 100%
-      );
-
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-
-      filter: drop-shadow(20px 20px 20px black);
-    }
-
-    > img {
-      position: absolute;
-
-      left: -12rem;
-      top: 10rem;
-
-      width: 500px;
-    }
-  }
-
   > .OurTeam {
     position: absolute;
     bottom: 2rem;
@@ -117,5 +60,25 @@
         width: 100%;
       }
     }
+  }
+
+  @media screen and (max-width: 1000px) {
+    .OurTeam {
+      > a {
+        font-size: 1.4rem;
+      }
+    }
+  }
+
+  @media screen and (max-width: 700px) {
+    .OurTeam {
+      > a {
+        font-size: 1.2rem;
+      }
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    height: 50lvh;
   }
 }
