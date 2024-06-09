@@ -70,7 +70,7 @@
     }
   }
 
-  .Navbar__Small {
+  > .Navbar__Small {
     display: none;
 
     .Navbar__Small__Icon {
@@ -116,6 +116,59 @@
 
     .Navbar__Small {
       display: block;
+    }
+  }
+}
+
+#Navbar__Side {
+  position: fixed;
+  top: 0;
+  left: 0;
+
+  width: 0;
+  height: 100lvh;
+
+  background-color: white;
+
+  z-index: 100;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  transition: all 0.3s ease-in-out;
+
+  overflow-x: hidden;
+  white-space: nowrap;
+
+  > a {
+    font-size: 2rem;
+
+    color: black;
+    text-decoration: none;
+
+    transition: all 0.3s ease-in-out;
+
+    &:hover {
+      color: $gold;
+    }
+  }
+
+  > .Navbar__Side__Icon {
+    position: absolute;
+    top: 2rem;
+    right: 2rem;
+
+    height: 50px;
+    width: 50px;
+
+    transition: all 0.3s ease-in-out;
+
+    cursor: pointer;
+
+    &:hover {
+      color: $gold;
     }
   }
 }
