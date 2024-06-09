@@ -95,6 +95,11 @@
             width: 2.5rem;
             height: 2.5rem;
           }
+
+          @media screen and (max-width: 500px) {
+            width: 1.5rem;
+            height: 1.5rem;
+          }
         }
       }
     }
