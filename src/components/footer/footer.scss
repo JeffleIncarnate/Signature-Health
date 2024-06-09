@@ -9,12 +9,25 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  flex-wrap: wrap;
 
   background-color: rgba($darkGreen, 0.1);
   border-radius: 1rem;
 
-  @media screen and (max-width: 700px) {
-    display: none;
+  @media screen and (max-width: 1200px) {
+    width: 90%;
+
+    margin: 2% 5%;
+  }
+
+  @media screen and (max-width: 860px) {
+    .Name {
+      margin-bottom: 2rem;
+    }
+
+    .SectionRight {
+      width: 100%;
+    }
   }
 
   > .Name {
@@ -24,13 +37,22 @@
 
     h2 {
       font-size: 3rem;
+
+      @media screen and (max-width: 1400px) {
+        font-size: 2.5rem;
+      }
+
+      @media screen and (max-width: 1200px) {
+        font-size: 2rem;
+      }
     }
   }
 
   > .SectionRight {
     display: flex;
     align-items: flex-start;
-    justify-content: center;
+    justify-content: flex-start;
+    flex-wrap: wrap;
     gap: 2rem;
 
     .Links {
@@ -53,8 +75,6 @@
       font-weight: bold;
 
       .Chat__Socials {
-        width: 100%;
-
         display: flex;
         align-items: center;
         justify-content: space-evenly;
@@ -70,6 +90,11 @@
 
           border-radius: 50%;
           border: 0.2rem solid $gold;
+
+          @media screen and (max-width: 900px) {
+            width: 2.5rem;
+            height: 2.5rem;
+          }
         }
       }
     }
