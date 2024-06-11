@@ -2,15 +2,8 @@ import "./navbar.scss";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars, faXmark } from "@fortawesome/free-solid-svg-icons";
-import { useEffect, useState } from "react";
 
 const Navbar = () => {
-  const [navOpen, setNavOpen] = useState<boolean>(false);
-
-  useEffect(() => {
-    console.log(navOpen);
-  }, [navOpen]);
-
   return (
     <>
       <nav className="Navbar">

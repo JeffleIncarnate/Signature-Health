@@ -26,6 +26,32 @@
 
       font-size: 1.5rem;
       font-family: bookAntiqua;
+
+      transition: all 0.3s ease-in-out;
+
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+
+      &::after {
+        content: "";
+
+        height: 0.1rem;
+        width: 0%;
+
+        background-color: $gold;
+
+        transition: all 0.3s ease-in-out;
+      }
+
+      &:hover {
+        color: $gold;
+      }
+
+      &:hover::after {
+        width: 100%;
+      }
     }
   }
 
