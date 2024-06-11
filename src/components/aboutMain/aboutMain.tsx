@@ -34,8 +34,8 @@ const AboutMain = () => {
           <FontAwesomeIcon className="Value__Icon" icon={faBullhorn} />
           <h3>Integrity</h3>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus,
-            libero!
+            At signature health, integrity means consistently doing the right
+            thing, building trust through honest and ethical practices.
           </p>
         </div>
 
@@ -43,8 +43,8 @@ const AboutMain = () => {
           <FontAwesomeIcon className="Value__Icon" icon={faHeart} />
           <h3>Compassion</h3>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus,
-            libero!
+            Compassion drives us to provide empathetic, patient-centered care
+            that respects their individuality and their lived experiences.
           </p>
         </div>
 
@@ -52,8 +52,8 @@ const AboutMain = () => {
           <FontAwesomeIcon className="Value__Icon" icon={faBarChart} />
           <h3>Equity</h3>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus,
-            libero!
+            We are committed to equity, ensuring everyone receives fair and
+            appropriate access to high-quality healthcare services.
           </p>
         </div>
       </div>
