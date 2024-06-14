@@ -61,16 +61,6 @@
     img {
       width: 100%;
     }
-
-    @media screen and (max-width: 900px) {
-      h2 {
-        font-size: 3rem;
-      }
-
-      p {
-        font-size: 1rem;
-      }
-    }
   }
 
   > .PersonInTeam {
@@ -129,7 +119,7 @@
         width: 70%;
 
         h2 {
-          font-size: 5rem;
+          font-size: 4rem;
         }
 
         p {
@@ -147,7 +137,7 @@
       > .Person {
         > .Text {
           h2 {
-            font-size: 4rem;
+            font-size: 3rem;
           }
 
           p {
@@ -166,7 +156,7 @@
       > .Person {
         > .Text {
           h2 {
-            font-size: 3rem;
+            font-size: 2.5rem;
           }
 
           p {
