@@ -3,7 +3,7 @@ import "./navbar.scss";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars, faXmark } from "@fortawesome/free-solid-svg-icons";
 
-const Navbar = ({ path }: { path: string }) => {
+const Navbar = () => {
   return (
     <>
       <nav className="Navbar">
