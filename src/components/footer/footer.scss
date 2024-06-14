@@ -6,7 +6,7 @@
   margin: 2% 12.5%;
   padding: 2rem;
 
-  background-color: rgba($darkGreen, 0.1);
+  background-color: #001b21;
   border-radius: 1rem;
 
   display: flex;
@@ -32,10 +32,16 @@
 
     gap: 1rem;
 
+    i {
+      color: white;
+    }
+
     > a {
-      color: black;
+      color: white;
 
       text-decoration: none;
+
+      font-weight: bold;
 
       transition: all 0.3s ease-in-out;
 
@@ -74,12 +80,22 @@
 
     > * {
       font-size: 1.5rem;
-      color: $gold;
+      color: white;
 
       padding: 0.5rem;
 
       border-radius: 999px;
-      border: solid $gold 0.3rem;
+      border: solid white 0.3rem;
+
+      transition: all 0.3s ease-in-out;
+
+      cursor: pointer;
+
+      &:hover {
+        color: $gold;
+
+        border: solid $gold 0.3rem;
+      }
     }
   }
 }

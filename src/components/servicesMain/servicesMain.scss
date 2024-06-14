@@ -48,8 +48,8 @@
       gap: 3rem;
 
       .Service {
-        max-width: 350px;
-        min-height: 300px;
+        max-width: 370px;
+        min-height: 400px;
 
         display: flex;
         align-items: center;
@@ -63,6 +63,14 @@
         background-color: rgba($darkGreen, 0.05);
 
         text-align: center;
+
+        h3 {
+          font-size: 2rem;
+        }
+
+        p {
+          font-size: 1.5rem;
+        }
 
         .ServiceIcon {
           width: 4rem;

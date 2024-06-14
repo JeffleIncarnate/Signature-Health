@@ -19,48 +19,24 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 5rem;
+    flex-direction: column;
+    text-align: center;
 
-    .Mission__Image {
-      flex: 1;
-
-      img {
-        max-width: 100%;
-
-        border-radius: 1rem;
-      }
+    h2 {
+      font-size: 4rem;
     }
 
-    .Mission__Text {
-      flex: 1;
-
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      flex-direction: column;
-
-      text-align: center;
-
-      h2 {
-        font-size: 4rem;
-      }
-
-      p {
-        font-size: 1.2rem;
-      }
+    p {
+      font-size: 1.5rem;
     }
 
     @media screen and (max-width: 1400px) {
-      > .Mission__Text {
-        flex: 2;
+      h2 {
+        font-size: 3rem;
+      }
 
-        h2 {
-          font-size: 3rem;
-        }
-
-        p {
-          font-size: 1.1rem;
-        }
+      p {
+        font-size: 1.1rem;
       }
     }
 
@@ -70,16 +46,12 @@
     }
 
     @media screen and (max-width: 900px) {
-      > .Mission__Text {
-        flex: 1.5;
+      h2 {
+        font-size: 2.5rem;
+      }
 
-        h2 {
-          font-size: 2.5rem;
-        }
-
-        p {
-          font-size: 1rem;
-        }
+      p {
+        font-size: 1rem;
       }
     }
 
@@ -104,7 +76,8 @@
     }
 
     li {
-      font-size: 1.2rem;
+      font-size: 1.5rem;
+      text-align: left;
     }
 
     @media screen and (max-width: 1400px) {
@@ -148,7 +121,7 @@
     }
 
     p {
-      font-size: 1.2rem;
+      font-size: 1.5rem;
     }
 
     @media screen and (max-width: 1400px) {

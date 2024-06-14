@@ -6,8 +6,9 @@
 }
 
 .Header {
-  width: 100%;
-  height: 75lvh;
+  width: 75%;
+  margin-left: 12.5%;
+  height: 50lvh;
 
   background-image: url("/pictures/eee.jpeg");
   background-position: center;
@@ -17,6 +18,8 @@
 
   overflow-y: hidden;
 
+  border-radius: 0 0 1rem 1rem;
+
   > .OurTeam {
     position: absolute;
     bottom: 2rem;
@@ -25,10 +28,14 @@
     display: flex;
     gap: 2rem;
 
+    .nav__active {
+      color: $gold;
+    }
+
     a {
       color: white;
 
-      font-family: "Domine", serif;
+      font-family: bookAntiqua;
       font-size: 1.5rem;
 
       text-decoration: none;

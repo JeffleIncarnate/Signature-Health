@@ -182,7 +182,7 @@ export default function ContactMain() {
             icon={faEnvelope}
           />
           <h2>Email</h2>
-          <p>info@signaturehealth.com</p>
+          <p>info@signaturehealth.co.nz</p>
         </div>
       </div>
     </main>

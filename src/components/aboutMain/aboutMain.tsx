@@ -69,15 +69,14 @@ const AboutMain = () => {
             <img src="/pictures/person.jpg" alt="" />
           </div>
           <div className="top__description">
-            <h2>Hey there, I'm Indeevar</h2>
+            <h2>Message from Managaing Director</h2>
             <div>
               <p>
-                The managing director of Signature health. My story starts in
-                the early 90s in Delhi, India. My early years were colourful,
-                intriguing, sometimes chaotic and often blissful. It continued
-                when I landed in Aotearoa/New Zealand at the age of 18 and I
-                fell in love with the place. So much so, that now I call it
-                home.
+                Hey there I'm Indeevar Duhan. My story starts in the early 90s
+                in Delhi, India. My early years were colourful, intriguing,
+                sometimes chaotic and often blissful. It continued when I landed
+                in Aotearoa/New Zealand at the age of 18 and I fell in love with
+                the place. So much so, that now I call it home.
               </p>
               <p>
                 I am a Registered nurse with experience spanning almost a
@@ -103,46 +102,6 @@ const AboutMain = () => {
             with it.
           </p>
         </div>
-
-        {/* <div className="left">
-          <div className="Boss__Image">
-            <img src="/pictures/person.jpg" alt="" />
-          </div>
-
-          <div className="Boss__Description__Bottom">
-            <p>
-              At Signature health, we understand the scope and magnitude of the
-              mission we are trying to scale. Our team is guided by the
-              principles of Te Tiriti, The Treaty of Waitangi and we acknowledge
-              multicultural nature of Aotearoa/New Zealand. We strongly believe
-              in true power of the collective and cherish all the fun it brings
-              along with it.
-            </p>
-          </div>
-        </div>
-
-        <div className="right">
-          <div className="Boss__Description__Right">
-            <h2>Hey there, I'm Indeevar</h2>
-            <p>
-              The managing director of Signature health. My story starts in the
-              early 90s in Delhi, India. My early years were colourful,
-              intriguing, sometimes chaotic and often blissful. It continued
-              when I landed in Aotearoa/New Zealand at the age of 18 and I fell
-              in love with the place. So much so, that now I call it home.
-            </p>
-            <p>
-              I am a Registered nurse with experience spanning almost a decade.
-              My work has been entirely aged care related and has been a truly
-              life changing experience. Resilience of our older generation has
-              humbled me many times and their life experiences have left me
-              inspired. Their wisdom is enlightening, and their warmth can be
-              felt when you hold their hand. It drives me to continue to deliver
-              positive outcomes for them as they live in their homes with their
-              families and friends.
-            </p>
-          </div>
-        </div> */}
       </div>
     </main>
   );

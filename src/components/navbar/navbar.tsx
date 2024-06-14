@@ -3,18 +3,32 @@ import "./navbar.scss";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars, faXmark } from "@fortawesome/free-solid-svg-icons";
 
-const Navbar = () => {
+const Navbar = ({ path }: { path?: string }) => {
   return (
     <>
       <nav className="Navbar">
         <div className="Navbar__Home">
-          <a href="/">Home</a>
+          <a href="/" className={path === "/" ? "nav__active" : ""}>
+            Home
+          </a>
         </div>
 
         <div className="Navbar__Links">
-          <a href="/about">About Us</a>
-          <a href="/services">Our Services</a>
-          <a href="/contact">Contact Us</a>
+          <a href="/about" className={path === "/about" ? "nav__active" : ""}>
+            About Us
+          </a>
+          <a
+            href="/services"
+            className={path === "/services" ? "nav__active" : ""}
+          >
+            Our Services
+          </a>
+          <a
+            href="/contact"
+            className={path === "/contact" ? "nav__active" : ""}
+          >
+            Contact Us
+          </a>
         </div>
 
         <div className="Navbar__Small">
