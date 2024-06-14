@@ -63,6 +63,38 @@
       gap: 0.5rem;
 
       font-weight: bold;
+
+      > a {
+        color: black;
+
+        text-decoration: none;
+
+        transition: all 0.3s ease-in-out;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+
+        &::after {
+          content: "";
+
+          height: 0.1rem;
+          width: 0%;
+
+          background-color: $gold;
+
+          transition: all 0.3s ease-in-out;
+        }
+
+        &:hover {
+          color: $gold;
+        }
+
+        &:hover::after {
+          width: 100%;
+        }
+      }
     }
 
     .Chat {
@@ -81,8 +113,8 @@
         gap: 1rem;
 
         > * {
-          width: 3rem;
-          height: 3rem;
+          width: 1.5rem;
+          height: 1.5rem;
 
           padding: 0.4rem;
 
@@ -90,16 +122,6 @@
 
           border-radius: 50%;
           border: 0.2rem solid $gold;
-
-          @media screen and (max-width: 900px) {
-            width: 2.5rem;
-            height: 2.5rem;
-          }
-
-          @media screen and (max-width: 500px) {
-            width: 1.5rem;
-            height: 1.5rem;
-          }
         }
       }
     }

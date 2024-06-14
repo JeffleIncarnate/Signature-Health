@@ -11,22 +11,14 @@ const AboutMain = () => {
   return (
     <main className="AboutMain">
       <div className="Mission">
-        <div className="Mission__Image">
-          <img
-            src="/pictures/aboutImage.jpeg"
-            alt="Image of nurse helping an older woman sitting on a bench"
-          />
-        </div>
-        <div className="Mission__Text">
-          <h2>Our Mission</h2>
-          <p>
-            Signature Health Group provides home care services to people living
-            the comfort of their homes within Tauranga region. Our clients and
-            their wellbeing are at the heart of our services. We offer services
-            tailored to your needs as you cherish comfort of your home and enjoy
-            company of your Whanau.
-          </p>
-        </div>
+        <h2>Our Mission</h2>
+        <p>
+          Signature Health Group provides home care services to people living
+          the comfort of their homes within Tauranga region. Our clients and
+          their wellbeing are at the heart of our services. We offer services
+          tailored to your needs as you cherish comfort of your home and enjoy
+          company of your Whanau.
+        </p>
       </div>
 
       <div className="Values">
