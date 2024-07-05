@@ -57,6 +57,8 @@ const Navbar = ({ path }: { path?: string }) => {
         <a href="/about">About Us</a>
         <a href="/services">Our Services</a>
         <a href="/contact">Contact Us</a>
+        <a href="/ourTeam">Our Team</a>
+        <a href="/joinOurTeam">Join Our Team</a>
       </div>
     </>
   );
