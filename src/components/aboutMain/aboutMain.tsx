@@ -10,17 +10,6 @@ import {
 const AboutMain = () => {
   return (
     <main className="AboutMain">
-      <div className="Mission">
-        <h2>Our Mission</h2>
-        <p>
-          Signature Health Group provides home care services to people living
-          the comfort of their homes within Tauranga region. Our clients and
-          their wellbeing are at the heart of our services. We offer services
-          tailored to your needs as you cherish comfort of your home and enjoy
-          company of your Whanau.
-        </p>
-      </div>
-
       <div className="Values">
         <div className="Value">
           <FontAwesomeIcon className="Value__Icon" icon={faBullhorn} />
@@ -66,7 +55,7 @@ const AboutMain = () => {
       <div className="Boss">
         <div className="top">
           <div className="top__image">
-            <img src="/pictures/person.jpg" alt="" />
+            <img src="/pictures/indeevar.jpeg" alt="" />
           </div>
           <div className="top__description">
             <h2>Message from Managaing Director</h2>

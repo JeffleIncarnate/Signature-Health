@@ -10,50 +10,6 @@
   flex-direction: column;
   gap: 5rem;
 
-  > .Mission {
-    width: 75%;
-    margin: 0 12.5%;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-
-    h2 {
-      font-size: 4rem;
-    }
-
-    p {
-      font-size: 1.5rem;
-      text-align: center;
-    }
-
-    @media screen and (max-width: 1400px) {
-      h2 {
-        font-size: 3rem;
-      }
-
-      p {
-        font-size: 1.1rem;
-      }
-    }
-
-    @media screen and (max-width: 1200px) {
-      width: 90%;
-      margin: 0 5%;
-    }
-
-    @media screen and (max-width: 900px) {
-      h2 {
-        font-size: 2.5rem;
-      }
-
-      p {
-        font-size: 1rem;
-      }
-    }
-  }
-
   > .Values {
     width: 75%;
     margin: 0 12.5%;
@@ -95,7 +51,7 @@
 
       p {
         text-align: center;
-        font-size: 1.5rem;
+        font-size: 1.3rem;
       }
     }
 
@@ -146,7 +102,7 @@
     }
 
     p {
-      font-size: 1.5rem;
+      font-size: 1.3rem;
     }
 
     @media screen and (max-width: 1400px) {
@@ -215,7 +171,7 @@
           gap: 1rem;
 
           p {
-            font-size: 1.5rem;
+            font-size: 1.3rem;
           }
         }
       }
@@ -223,7 +179,7 @@
 
     .bottom {
       p {
-        font-size: 1.5rem;
+        font-size: 1.3rem;
       }
     }
 

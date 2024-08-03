@@ -9,12 +9,6 @@ const Header = ({ path }: { path: string }) => {
         <Navbar path={path} />
         <div className="OurTeam">
           <a
-            href="/ourTeam"
-            className={path === "/ourTeam" ? "nav__active" : ""}
-          >
-            Our Team
-          </a>
-          <a
             href="/joinOurTeam"
             className={path === "/joinOurTeam" ? "nav__active" : ""}
           >
