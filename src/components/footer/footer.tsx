@@ -16,7 +16,6 @@ const Footer = () => {
       </div>
       <div className="Socials">
         <FontAwesomeIcon icon={faEnvelope} />
-        <FontAwesomeIcon icon={faPhone} />
         <FontAwesomeIcon icon={faLinkedin} />
         <FontAwesomeIcon icon={faFacebook} />
       </div>
