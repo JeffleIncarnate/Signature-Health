@@ -1,6 +1,7 @@
 import "./homeMain.scss";
 
 const HomeMain = () => {
+  // console.log("e");
   return (
     <main className="HomeMain">
       <div className="Mission">
