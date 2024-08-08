@@ -2,7 +2,7 @@ import "./footer.scss";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLinkedin, faFacebook } from "@fortawesome/free-brands-svg-icons";
-import { faEnvelope, faPhone } from "@fortawesome/free-solid-svg-icons";
+import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 
 const Footer = () => {
   return (
@@ -15,9 +15,22 @@ const Footer = () => {
         <a href="/contact">Contact Us</a>
       </div>
       <div className="Socials">
-        <FontAwesomeIcon icon={faEnvelope} />
-        <FontAwesomeIcon icon={faLinkedin} />
-        <FontAwesomeIcon icon={faFacebook} />
+        <a href="/contact">
+          <FontAwesomeIcon icon={faEnvelope} />
+        </a>
+
+        <a
+          href="https://www.linkedin.com/company/signaturehealthgroup/"
+          target="_blank"
+        >
+          <FontAwesomeIcon icon={faLinkedin} />
+        </a>
+        <a
+          href="https://www.facebook.com/profile.php?id=61563617425142"
+          target="_blank"
+        >
+          <FontAwesomeIcon icon={faFacebook} />
+        </a>
       </div>
     </footer>
   );

@@ -89,23 +89,25 @@
 
     gap: 1rem;
 
-    > * {
-      font-size: 1.5rem;
-      color: white;
+    > a {
+      > * {
+        font-size: 1.5rem;
+        color: white;
 
-      padding: 0.5rem;
+        padding: 0.5rem;
 
-      border-radius: 999px;
-      border: solid white 0.3rem;
+        border-radius: 999px;
+        border: solid white 0.3rem;
 
-      transition: all 0.3s ease-in-out;
+        transition: all 0.3s ease-in-out;
 
-      cursor: pointer;
+        cursor: pointer;
 
-      &:hover {
-        color: $gold;
+        &:hover {
+          color: $gold;
 
-        border: solid $gold 0.3rem;
+          border: solid $gold 0.3rem;
+        }
       }
     }
   }
