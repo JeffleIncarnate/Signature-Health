@@ -13,6 +13,7 @@ const Navbar = ({ path }: { path: string }) => {
           <Link href="/" className={path === "/" ? "nav__active" : ""}>
             Home
           </Link>
+          <div className="Navbar__Home_Triangle"></div>
         </div>
 
         <div className="Navbar__Links">
