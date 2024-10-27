@@ -12,32 +12,36 @@ const AboutMain = () => {
   return (
     <main className="AboutMain">
       <div className="Values">
-        <div className="Value">
-          <FontAwesomeIcon className="Value__Icon" icon={faBullhorn} />
-          <h3>Integrity</h3>
-          <p>
-            At signature health, integrity means consistently doing the right
-            thing, building trust through honest and ethical practices.
-          </p>
-        </div>
+        <h2>Our Values</h2>
 
-        <div className="Value">
-          <FontAwesomeIcon className="Value__Icon" icon={faHeart} />
-          <h3>Compassion</h3>
-          <p>
-            Compassion drives us to provide empathetic, patient-centered care
-            that respects their individuality and their lived experiences.
-          </p>
-        </div>
+        <section>
+          <div className="Value">
+            <FontAwesomeIcon className="Value__Icon" icon={faBullhorn} />
+            <h3>Integrity</h3>
+            <p>
+              At signature health, integrity means consistently doing the right
+              thing, building trust through honest and ethical practices.
+            </p>
+          </div>
 
-        <div className="Value">
-          <FontAwesomeIcon className="Value__Icon" icon={faBarChart} />
-          <h3>Equity</h3>
-          <p>
-            We are committed to equity, ensuring everyone receives fair and
-            appropriate access to high-quality healthcare services.
-          </p>
-        </div>
+          <div className="Value">
+            <FontAwesomeIcon className="Value__Icon" icon={faHeart} />
+            <h3>Compassion</h3>
+            <p>
+              Compassion drives us to provide empathetic, patient-centered care
+              that respects their individuality and their lived experiences.
+            </p>
+          </div>
+
+          <div className="Value">
+            <FontAwesomeIcon className="Value__Icon" icon={faBarChart} />
+            <h3>Equity</h3>
+            <p>
+              We are committed to equity, ensuring everyone receives fair and
+              appropriate access to high-quality healthcare services.
+            </p>
+          </div>
+        </section>
       </div>
 
       <div className="Commitment">

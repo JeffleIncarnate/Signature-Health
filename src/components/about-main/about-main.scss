@@ -14,11 +14,31 @@
     width: 75%;
     margin: 0 12.5%;
 
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 3rem;
+    text-align: center;
+
+    section {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 3rem;
+    }
+
+    h2 {
+      font-size: 4rem;
+    }
+
+    @media screen and (max-width: 1400px) {
+      h2 {
+        font-size: 3rem;
+      }
+    }
+
+    @media screen and (max-width: 900px) {
+      h2 {
+        font-size: 2.5rem;
+      }
+    }
 
     .Value {
       flex: 1;
