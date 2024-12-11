@@ -9,8 +9,8 @@ const Footer = () => {
   return (
     <footer className="Footer">
       <div className="Links">
-        <Link href="/about">About Us</Link>
-        <i>•</i>
+        {/* <Link href="/about">About Us</Link>
+        <i>•</i> */}
         <Link href="/services">Our Services</Link>
         <i>•</i>
         <Link href="/contact">Contact Us</Link>
