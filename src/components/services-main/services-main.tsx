@@ -39,8 +39,8 @@ const ServicesMain = () => {
       icon: faLock,
     },
     {
-      heading: "DISABILITY SUPPORT",
-      text: "Take disability head on while you enjoy your home environment. Get in touch for assistance with your specific needs.",
+      heading: "COMPANIONSHIP",
+      text: "Our companionship service offers personalised, one-on-one support to help individuals feel engaged, valued, and comfortable at home.",
       itemsServiceHas: ["Lorem", "Lorem"],
       icon: faWheelchair,
     },
