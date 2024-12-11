@@ -49,7 +49,7 @@ const ServicesMain = () => {
   return (
     <main className="ServicesMain">
       <div className="Services">
-        <h2>Your Care, Your Way</h2>
+        <h2>Your comfort our commitment</h2>
 
         <div className="ServiceWrapper">
           {services.map((service) => (
@@ -62,6 +62,16 @@ const ServicesMain = () => {
             />
           ))}
         </div>
+      </div>
+
+      <div className="Service__Philosophy">
+        <h2>Our Service Philosophy</h2>
+        <ul>
+          <li>Respectful engagements</li>
+          <li>Partnership approach to care</li>
+          <li>Protection of your rights</li>
+          <li>Active whanau Participation</li>
+        </ul>
       </div>
     </main>
   );
