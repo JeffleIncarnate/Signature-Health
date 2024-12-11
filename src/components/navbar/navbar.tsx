@@ -18,12 +18,6 @@ const Navbar = ({ path }: { path: string }) => {
 
         <div className="Navbar__Links">
           <Link
-            href="/about"
-            className={path === "/about" ? "nav__active" : ""}
-          >
-            About Us
-          </Link>
-          <Link
             href="/services"
             className={path === "/services" ? "nav__active" : ""}
           >
