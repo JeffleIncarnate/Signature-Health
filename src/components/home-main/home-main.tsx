@@ -82,7 +82,7 @@ const HomeMain = () => {
         <div className="top">
           <div className="top__image">
             <Image
-              src="/pictures/indeevar.jpeg"
+              src="/pictures/indeevar.webp"
               alt="Picture of Indeevar Duhan, Managaing Director of Signature Health"
               fill={true}
               style={{ borderRadius: "1rem" }}
