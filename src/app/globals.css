@@ -1,7 +1,4 @@
-@font-face {
-  src: url("/fonts/BookAntiqua.ttf");
-  font-family: bookAntiqua;
-}
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap");
 
 body,
 html {
@@ -10,8 +7,10 @@ html {
 
   background-color: #fefefe;
 
-  font-family: bookAntiqua;
   color: #001b21;
+
+  font-family: "EB Garamond", serif;
+  font-style: normal;
 }
 
 * {
