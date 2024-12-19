@@ -14,35 +14,31 @@
 
   h2 {
     font-size: 4rem;
+
+    @media screen and (max-width: 1400px) {
+      font-size: 3rem;
+    }
+
+    @media screen and (max-width: 900px) {
+      font-size: 2.5rem;
+    }
   }
 
   p {
     font-size: 1.3rem;
-  }
 
-  @media screen and (max-width: 1400px) {
-    h2 {
-      font-size: 3rem;
+    @media screen and (max-width: 1400px) {
+      font-size: 1.1rem;
     }
 
-    p {
-      font-size: 1.1rem;
+    @media screen and (max-width: 900px) {
+      font-size: 1rem;
     }
   }
 
   @media screen and (max-width: 1200px) {
     width: 90%;
     margin: 5rem 5%;
-  }
-
-  @media screen and (max-width: 900px) {
-    h2 {
-      font-size: 2.5rem;
-    }
-
-    p {
-      font-size: 1rem;
-    }
   }
 }
 
@@ -96,10 +92,11 @@
           width: 100%;
 
           padding: 1rem;
+          margin-top: 0.5rem;
 
           border: none;
-          border-bottom: 0.2rem solid $darkGreen;
-          background-color: #f9f9f9;
+          border-radius: 0.5rem;
+          background-color: white;
 
           font-family: inherit;
           font-size: 1.3rem;
@@ -115,6 +112,8 @@
             -moz-appearance: textfield;
             appearance: textfield;
           }
+
+          box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
         }
       }
 
@@ -143,8 +142,8 @@
             margin: 0.5rem 0 2.5rem 0;
 
             border: none;
-            border-bottom: 0.2rem solid $darkGreen;
-            background-color: #f9f9f9;
+            border-radius: 0.5rem;
+            background-color: white;
 
             font-family: inherit;
             font-size: 1.3rem;
@@ -160,6 +159,8 @@
               -moz-appearance: textfield;
               appearance: textfield;
             }
+
+            box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
           }
         }
 
@@ -191,12 +192,13 @@
         padding: 1rem;
 
         font-size: 1.3rem;
+        font-family: inherit;
 
         border: none;
-        border-bottom: 0.2rem solid $darkGreen;
-        background-color: #f9f9f9;
+        border-radius: 0.5rem;
+        background-color: white;
 
-        font-family: inherit;
+        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
       }
 
       .error {

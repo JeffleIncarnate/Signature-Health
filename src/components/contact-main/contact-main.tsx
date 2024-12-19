@@ -51,7 +51,6 @@ function Form() {
                 </label>
                 <input
                   type="text"
-                  placeholder="Bob Smith"
                   {...register("name", { required: true, minLength: 2 })}
                 />
                 {errors.name && (
@@ -65,7 +64,6 @@ function Form() {
                     Email<span>*</span>
                   </label>
                   <input
-                    placeholder="bobsmith@domain.com"
                     {...register("email", {
                       required: true,
                       pattern: /^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$/,
@@ -77,7 +75,6 @@ function Form() {
                 <div>
                   <label>Phone Number</label>
                   <input
-                    placeholder="123 456 789"
                     {...register("phoneNumber", {
                       required: false,
                       pattern: /^\d+/,
@@ -95,7 +92,6 @@ function Form() {
                 Your Message<span>*</span>
               </label>
               <textarea
-                placeholder="What I want to ask you is..."
                 {...register("message", { required: true, minLength: 10 })}
               ></textarea>
               {errors.message && (
