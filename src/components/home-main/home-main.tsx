@@ -11,7 +11,7 @@ import Image from "next/image";
 const HomeMain = () => {
   return (
     <main className="HomeMain">
-      <div className="Mission">
+      <div className="AboutUs">
         <h2>About us</h2>
         <p>
           Signature Health Group provides home care services to people living
