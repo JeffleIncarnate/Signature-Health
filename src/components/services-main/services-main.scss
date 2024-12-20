@@ -60,9 +60,11 @@
         padding: 2rem;
         border-radius: 1rem;
 
-        background-color: rgba($darkGreen, 0.05);
+        background-color: white;
 
         text-align: center;
+
+        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 
         h3 {
           font-size: 2rem;

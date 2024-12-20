@@ -85,8 +85,7 @@ const HomeMain = () => {
               src="/pictures/indeevar.webp"
               alt="Picture of Indeevar Duhan, Managaing Director of Signature Health"
               fill={true}
-              style={{ borderRadius: "1rem" }}
-              sizes={""}
+              style={{ borderRadius: "1rem", height: "100%" }}
             />
           </div>
           <div className="top__description">
