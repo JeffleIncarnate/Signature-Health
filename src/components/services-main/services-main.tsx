@@ -3,9 +3,11 @@ import "./services-main.scss";
 import {
   faHeartBroken,
   faHome,
-  faLock,
   faPersonCane,
   faWheelchair,
+  faClock,
+  faHandshake,
+  faCapsules,
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
@@ -20,12 +22,11 @@ const ServicesMain = () => {
       icon: faPersonCane,
     },
     {
-      heading: "HELP AT HOME",
-      text: "We can help you with general household cleaning, laundry, shopping, vacuuming, ironing, and companionship.",
-      itemsServiceHas: ["Lorem", "Lorem", "Lorem", "Lorem", "Lorem"],
-      icon: faHome,
+      heading: "LONG TERM CARE",
+      text: "We provide compassionate, tailored care to help individuals effectively manage chronic conditions and maintain independence at home.",
+      itemsServiceHas: ["Lorem", "Lorem", "Lorem"],
+      icon: faClock,
     },
-
     {
       heading: "RESPITE CARE",
       text: "Need a break from looking after your loved one? We can help with taking over care needs of your loved one, or work in tandem so you have some time for selfcare too!",
@@ -33,15 +34,27 @@ const ServicesMain = () => {
       icon: faHeartBroken,
     },
     {
-      heading: "PRIVATE CARE",
-      text: "Need help but do not qualify for funded care? We are here to help at competitive rates as per your need.",
+      heading: "HOME HELP",
+      text: "We can help you with general household cleaning, laundry, shopping, vacuuming, ironing, and companionship.",
       itemsServiceHas: ["Lorem", "Lorem", "Lorem", "Lorem", "Lorem"],
-      icon: faLock,
+      icon: faHome,
     },
     {
       heading: "COMPANIONSHIP",
       text: "Our companionship service offers personalised, one-on-one support to help individuals feel engaged, valued, and comfortable at home.",
       itemsServiceHas: ["Lorem", "Lorem"],
+      icon: faHandshake,
+    },
+    {
+      heading: "MEDICATION OVERSIGHT",
+      text: "We Ensure safe and reliable support for individuals in managing their prescriptions, promoting health and independence in the comfort of home and community settings.",
+      itemsServiceHas: ["Lorem", "Lorem", "Lorem", "Lorem", "Lorem"],
+      icon: faCapsules,
+    },
+    {
+      heading: "DISABILITY SUPPORT",
+      text: "Our disability services are designed to empower individuals with tailored support, fostering independence, inclusion, and well-being within their homes and communities.",
+      itemsServiceHas: ["Lorem", "Lorem", "Lorem", "Lorem", "Lorem"],
       icon: faWheelchair,
     },
   ];
@@ -49,7 +62,7 @@ const ServicesMain = () => {
   return (
     <main className="ServicesMain">
       <div className="Services">
-        <h2>Your comfort our commitment</h2>
+        <h2>Your comfort, Our commitment</h2>
 
         <div className="ServiceWrapper">
           {services.map((service) => (

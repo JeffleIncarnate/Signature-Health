@@ -14,11 +14,18 @@ const HomeMain = () => {
       <div className="AboutUs">
         <h2>About us</h2>
         <p>
-          Signature Health Group provides home care services to people living
-          the comfort of their homes within Tauranga region. Our clients and
+          Signature Health Group provides home care services to people living in
+          the comfort of their homes within the Tauranga region. Our clients and
           their wellbeing are at the heart of our services. We offer services
-          tailored to your needs as you cherish comfort of your home and enjoy
-          company of your Whanau.
+          tailored to your needs so you can cherish the comfort of your home
+          while enjoying the company of your Whānau. Our dedicated team of
+          professional caregivers understands the importance of maintaining
+          independence, dignity, and quality of life. Whether you need
+          assistance with daily activities, personal care, or companionship, we
+          are here to support you every step of the way. At Signature Health
+          Group, we are committed to providing compassionate, reliable care that
+          allows you to live life to the fullest, surrounded by the people and
+          environment you love.
         </p>
       </div>
 
@@ -56,7 +63,7 @@ const HomeMain = () => {
       </div>
 
       <div className="Commitment">
-        <h2>Commitment</h2>
+        <h2>Our commitment</h2>
 
         <p>
           At Signature Health, we are committed to ensuring that every
@@ -64,17 +71,11 @@ const HomeMain = () => {
           that honours their unique identity and respects their inherent rights.
           We stand as allies in the pursuit of holistic well-being for all,
           fostering a compassionate environment where the spirit of the Treaty
-          flourishes, and every individuals tikanaga is valued.
-        </p>
-      </div>
-
-      <div className="TeTiriti">
-        <h2>Honouring Te Tiriti</h2>
-        <p>
-          Our team is Guided by the enduring principles of Te Tiriti (The Treaty
-          of Waitangi) and a steadfast commitment to Equity. We strive to
-          provide exceptional home care services that reflect the values of
-          Partnership, Participation and Protection outlined in the Treaty.
+          flourishes, and every individuals tikanaga is valued. Our team is
+          Guided by the enduring principles of Te Tiriti (The Treaty of
+          Waitangi) and a steadfast commitment to Equity. We strive to provide
+          exceptional home care services that reflect the values of Partnership,
+          Participation and Protection outlined in the Treaty.
         </p>
       </div>
 
