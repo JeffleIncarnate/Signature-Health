@@ -20,6 +20,18 @@
 
     text-align: center;
 
+    &:hover {
+      transform: scale(1.05);
+    }
+
+    transition: 0.3s;
+
+    padding: 2rem;
+    border-radius: 1rem;
+
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    background-color: white;
+
     h2 {
       font-size: 4rem;
 
@@ -81,6 +93,11 @@
     }
 
     .Value {
+      &:hover {
+        transform: scale(1.05);
+      }
+
+      transition: 0.3s;
       flex: 1;
       min-width: 350px;
       max-width: 500px;
@@ -162,6 +179,18 @@
 
     text-align: center;
 
+    &:hover {
+      transform: scale(1.05);
+    }
+
+    transition: 0.3s;
+
+    padding: 2rem;
+    border-radius: 1rem;
+
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    background-color: white;
+
     h2 {
       font-size: 4rem;
 
@@ -202,6 +231,18 @@
     flex-direction: column;
     gap: 1rem;
 
+    &:hover {
+      transform: scale(1.05);
+    }
+
+    transition: 0.3s;
+
+    padding: 2rem;
+    border-radius: 1rem;
+
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    background-color: white;
+
     .top {
       display: flex;
       align-items: center;
@@ -214,6 +255,12 @@
         aspect-ratio: 9/11;
 
         position: relative;
+
+        transition: 0.3s;
+
+        &:hover {
+          transform: scale(1.05);
+        }
       }
 
       .top__description {

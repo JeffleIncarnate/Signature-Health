@@ -8,6 +8,7 @@ import {
   faClock,
   faHandshake,
   faCapsules,
+  faGraduationCap,
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
@@ -56,6 +57,12 @@ const ServicesMain = () => {
       text: "Our disability services are designed to empower individuals with tailored support, fostering independence, inclusion, and well-being within their homes and communities.",
       itemsServiceHas: ["Lorem", "Lorem", "Lorem", "Lorem", "Lorem"],
       icon: faWheelchair,
+    },
+    {
+      heading: "SPECIALISED CARE",
+      text: "We provide compassionate, tailored support to enhance the comfort, dignity, and quality of life for individuals with serious or terminal illnesses in the familiarity of their own homes. ",
+      itemsServiceHas: ["Lorem", "Lorem", "Lorem", "Lorem", "Lorem"],
+      icon: faGraduationCap,
     },
   ];
 
