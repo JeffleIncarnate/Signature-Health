@@ -18,4 +18,4 @@ export async function ACTION_SendEmail({ data }: { data: FormInputs }) {
   } catch (err) {
     throw new Error("Unable to send email");
   }
-}
+} //
