@@ -1,20 +1,15 @@
-@import url("https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-body,
-html {
-  margin: 0;
-  padding: 0;
-
-  background-color: #fefefe;
-
-  color: #001b21;
-
-  font-family: "EB Garamond", serif;
-  font-style: normal;
+:root {
+  --white: hsl(0, 0%, 100%);
+  --offWhite: hsl(0, 0%, 96%);
+  --green: hsl(189, 69%, 11%);
+  --gold: hsl(40, 63%, 64%);
+  --black: hsl(0, 0%, 0%);
 }
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+body {
+  background-color: var(--offWhite);
 }

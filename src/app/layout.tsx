@@ -1,8 +1,9 @@
 import "./globals.css";
 
-import { config } from "@fortawesome/fontawesome-svg-core";
-import "@fortawesome/fontawesome-svg-core/styles.css";
-config.autoAddCss = false;
+import { ebGaramond, inter, condiment } from "@/core/fonts";
+
+import { Navbar } from "@/core/components/navbar";
+import { Footer } from "@/core/components/footer";
 
 export default function RootLayout({
   children,
@@ -11,7 +12,13 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body
+        className={`${ebGaramond.variable} ${inter.variable} ${condiment.variable} antialiased`}
+      >
+        <Navbar />
+        {children}
+        <Footer />
+      </body>
     </html>
   );
 }
